@@ -17,8 +17,8 @@ because earlier versions of libtag1-dev prior to v1.9.1 did not support `prop->c
 ##### Notes
 1. Demux a mp4 file into raw H.264 and mp3 respectively:
 
-    avconv -i SerenityHDDVDTrailer.mp4 -c:v copy -bsf h264_mp4toannexb -an out.h264
-    avconv -i SerenityHDDVDTrailer.mp4 -f mp3 -b 192k -vn out.mp3
+        avconv -i SerenityHDDVDTrailer.mp4 -c:v copy -bsf h264_mp4toannexb -an out.h264
+        avconv -i SerenityHDDVDTrailer.mp4 -f mp3 -b 192k -vn out.mp3
 
 
 ##### High-Level steps to decode a h264 stream.
