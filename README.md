@@ -1,6 +1,6 @@
 h.264tzy - H.264/MPEG-4 AVC (or Part 10) reader
 ===============================================
-Based on popular open source [x264][1] library and reference to MP3[2][3][4] file format and header.
+Based on popular open source [x264][1] library and reference to [MP3][2] file format and header.
 
 
 ##### Required Packages
@@ -35,6 +35,8 @@ because earlier versions of libtag1-dev prior to v1.9.1 did not support `prop->c
 1. http://en.wikipedia.org/wiki/H.264/MPEG-4_AVC
 2. http://support.apple.com/kb/ht1425
 3. http://stackoverflow.com/questions/16772558/what-is-ffmpeg-avcodec-x264
+4. http://mpgedit.org/mpgedit/mpeg_format/MP3Format.html
+5. http://mpgedit.org/mpgedit/mpeg_format/mpeghdr.htm
 
 
 [1]:http://www.videolan.org/developers/x264.html
